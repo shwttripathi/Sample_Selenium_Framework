@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="RegressionSuite" duration-ms="54160" started-at="2018-09-07T06:52:46Z" finished-at="2018-09-07T06:53:40Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="54160" started-at="2018-09-07T06:52:46Z" finished-at="2018-09-07T06:53:40Z">
+      <class name="SpiceJetWebAppSuite.Spice_Jet_Flights_App.SpiceJetLandingPageTest">
+        <test-method status="PASS" signature="startUp()[pri:0, instance:SpiceJetWebAppSuite.Spice_Jet_Flights_App.SpiceJetLandingPageTest@4f209819]" name="startUp" is-config="true" duration-ms="40932" started-at="2018-09-07T06:52:46Z" finished-at="2018-09-07T06:53:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startUp -->
+        <test-method status="PASS" signature="selectCurAndPax(java.lang.String, int)[pri:0, instance:SpiceJetWebAppSuite.Spice_Jet_Flights_App.SpiceJetLandingPageTest@4f209819]" name="selectCurAndPax" duration-ms="6105" started-at="2018-09-07T06:53:27Z" data-provider="testdata" finished-at="2018-09-07T06:53:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[USD]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectCurAndPax -->
+        <test-method status="PASS" signature="selectCurAndPax(java.lang.String, int)[pri:0, instance:SpiceJetWebAppSuite.Spice_Jet_Flights_App.SpiceJetLandingPageTest@4f209819]" name="selectCurAndPax" duration-ms="5327" started-at="2018-09-07T06:53:33Z" data-provider="testdata" finished-at="2018-09-07T06:53:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[INR]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectCurAndPax -->
+        <test-method status="PASS" signature="verifyFlightButton()[pri:0, instance:SpiceJetWebAppSuite.Spice_Jet_Flights_App.SpiceJetLandingPageTest@4f209819]" name="verifyFlightButton" duration-ms="106" started-at="2018-09-07T06:53:38Z" finished-at="2018-09-07T06:53:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyFlightButton -->
+        <test-method status="PASS" signature="verifyRoundTripRadio()[pri:0, instance:SpiceJetWebAppSuite.Spice_Jet_Flights_App.SpiceJetLandingPageTest@4f209819]" name="verifyRoundTripRadio" duration-ms="91" started-at="2018-09-07T06:53:38Z" finished-at="2018-09-07T06:53:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyRoundTripRadio -->
+        <test-method status="PASS" signature="verifyStudentCheckBox()[pri:0, instance:SpiceJetWebAppSuite.Spice_Jet_Flights_App.SpiceJetLandingPageTest@4f209819]" name="verifyStudentCheckBox" duration-ms="85" started-at="2018-09-07T06:53:38Z" finished-at="2018-09-07T06:53:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyStudentCheckBox -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:SpiceJetWebAppSuite.Spice_Jet_Flights_App.SpiceJetLandingPageTest@4f209819]" name="tearDown" is-config="true" duration-ms="1403" started-at="2018-09-07T06:53:38Z" finished-at="2018-09-07T06:53:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- SpiceJetWebAppSuite.Spice_Jet_Flights_App.SpiceJetLandingPageTest -->
+    </test> <!-- Test -->
+  </suite> <!-- RegressionSuite -->
+</testng-results>

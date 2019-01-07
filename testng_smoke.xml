@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="SmokeSuite">
+
+  <listeners>
+	<listener class-name="SpiceJetWebAppSuite.Spice_Jet_Flights_App.Listeners"></listener>
+  </listeners>
+
+  <test name="Test">
+    <classes>
+      <class name="SpiceJetWebAppSuite.Spice_Jet_Flights_App.SpiceJetLandingPageTest">
+      	<methods>
+      		<include name="verifyRoundTripRadio"></include>
+      		<include name="verifyStudentCheckBox"></include>
+      		<include name="verifyFlightButton"></include>
+      	</methods>
+      </class>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
