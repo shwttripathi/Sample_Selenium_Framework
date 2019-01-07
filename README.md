@@ -1,2 +1,2 @@
 # Sample_Selenium_Framework
-sample framework
+This is sample selenium framework for demo
